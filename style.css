@@ -9,6 +9,7 @@ body {
 a {
   animation: animation 5s;
   background-color: blanchedalmond;
+  animation-iteration-count: infinite;
 }
 @keyframes animation {
   from {
