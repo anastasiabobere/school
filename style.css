@@ -7,6 +7,14 @@ body {
   padding: 3rem;
 }
 a {
-  color: hotpink;
+  animation: animation 5s;
   background-color: blanchedalmond;
+}
+@keyframes animation {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
 }
