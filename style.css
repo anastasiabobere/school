@@ -1,8 +1,9 @@
 body {
-  background-color: plum;
+  background-color: silver;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: blueviolet;
+
   text-align: center;
   padding: 3rem;
 }
@@ -13,7 +14,7 @@ a {
 }
 @keyframes animation {
   from {
-    color: red;
+    color: pink;
   }
   to {
     color: blue;
