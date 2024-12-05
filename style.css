@@ -1,22 +1,20 @@
 body {
-  background-color: silver;
+  background-color: rgb(191, 0, 254);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: blueviolet;
-
+  color: rgb(48, 255, 25);
   text-align: center;
   padding: 3rem;
 }
-a {
+p {
   animation: animation 5s;
-  background-color: blanchedalmond;
   animation-iteration-count: infinite;
 }
 @keyframes animation {
   from {
-    color: pink;
+    color: rgb(0, 255, 30);
   }
   to {
-    color: blue;
+    color: rgb(0, 255, 255);
   }
 }
